@@ -1,6 +1,15 @@
-Tento repozitář obsahuje různé věci z hodin WT na Gymnáziu Arabská 14
-Například:
-  -referat.md obsahuje ukázkový referát o Martinu Fowlerovi
-  -složka prvniweb obsahuje první (prolinkované) webovoé stránku z hodin WT
+# Různé materiály z hodin WT
 
-Serhii Khudanych, 2.F
+Tento repozitář obsahuje různé materiály z hodin Webových technologií (WT) na Gymnáziu Arabská 14.
+
+## Obsah
+
+- **`referat.md`**  
+  Ukázkový referát o Martinu Fowlerovi.
+
+- **Složka `prvniweb`**  
+  Obsahuje první jednoduchou webovou stránku z hodin WT, včetně propojených HTML souborů.
+
+---
+
+*Serhii Khudanych, 2.F*
