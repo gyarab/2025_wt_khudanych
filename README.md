@@ -10,6 +10,8 @@ Tento repozitář obsahuje různé materiály z hodin Webových technologií (WT
 - **Složka `prvniweb`**  
   Obsahuje první jednoduchou webovou stránku z hodin WT, včetně propojených HTML souborů.
 
+- **Složka `microsite`**  
+  Obsahuje one-page microsite
 ---
 
 *Serhii Khudanych, 2.F*
