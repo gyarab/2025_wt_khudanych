@@ -1,15 +1,9 @@
-# Ignore everything
-*
+# Ignore build files and IDE configs only in Programování 2.F
+Programování 2.F/build/
+Programování 2.F/nbproject/
+Programování 2.F/build.xml
+Programování 2.F/manifest.mf
+Programování 2.F/test/
 
-# But keep the src folder and its contents
-!Programování 2.F/
-!Programování 2.F/src/
-!Programování 2.F/src/**
-
-# Keep these root files
-!.gitignore
-!README.md
-
-# Keep GitHub workflows
-!.github/
-!.github/**
+# Ignore compiled class files
+*.class
