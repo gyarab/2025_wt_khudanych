@@ -1,0 +1,15 @@
+# Ignore everything
+*
+
+# But keep the src folder and its contents
+!Programování 2.F/
+!Programování 2.F/src/
+!Programování 2.F/src/**
+
+# Keep these root files
+!.gitignore
+!README.md
+
+# Keep GitHub workflows
+!.github/
+!.github/**
