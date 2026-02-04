@@ -7,3 +7,4 @@ Programování 2.F/test/
 
 # Ignore compiled class files
 *.class
+/kurzy/venv
