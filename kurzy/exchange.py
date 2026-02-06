@@ -64,13 +64,19 @@ if vyber_typu_prevodu == "0":
 
     line_mena = najdi_menu(konecna_mena0)
     while True:
-        pocet_czk = float(input(f"Zadejte částku v CZK pro převod do {konecna_mena0}: "))
+        try:
+            pocet_czk = float(input(f"Zadejte částku v CZK: "))
+        except ValueError:
+            print(Fore.RED + "Zadejte platné číslo." + Style.RESET_ALL)
+            continue  
+
         if pocet_czk < 0:
             print(Fore.RED + "Částka nemůže být záporná." + Style.RESET_ALL)
         else:
             break
+
     prevod = prevod_meny(pocet_czk, line_mena, 2, 0)
-    print(Fore.BLUE + str(prevod) + f" {konecna_mena0}" + Style.RESET_ALL)
+    print(Fore.BLUE + f"{prevod} {konecna_mena0}" + Style.RESET_ALL)
 
 elif vyber_typu_prevodu == "1":
     while True:
@@ -85,10 +91,16 @@ elif vyber_typu_prevodu == "1":
 
     line_mena = najdi_menu(konecna_mena1)
     while True:
-        pocet_cizi_meny = float(input(f"Zadejte částku v {konecna_mena1} pro převod do CZK: "))
+        try:
+            pocet_cizi_meny = float(input(f"Zadejte částku v {konecna_mena1} pro převod do CZK: "))
+        except ValueError:
+            print(Fore.RED + "Zadejte platné číslo." + Style.RESET_ALL)
+            continue
+
         if pocet_cizi_meny < 0:
-            print(Fore.RED + "Částka nemůže být záporná." + Style.RESET_ALL)
+                print(Fore.RED + "Částka nemůže být záporná." + Style.RESET_ALL)
         else:
             break
     prevod = prevod_meny(pocet_cizi_meny, line_mena, 2, 1)
     print(Fore.BLUE + str(prevod) + " Kč" + Style.RESET_ALL)
+            
