@@ -1,6 +1,3 @@
-<<<<<<< Updated upstream
 httpx
 colorama
-=======
-httpx
->>>>>>> Stashed changes
+
